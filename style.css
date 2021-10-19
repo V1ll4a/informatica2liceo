@@ -1,0 +1,38 @@
+body{
+    display: grid;
+    grid-template-columns: 100px 800px 100px;
+    grid-template-rows: 200px auto 200px;
+    grid-template-areas: "titulo titulo titulo"
+                         ". contenido ."
+                         "footer footer footer";
+}
+
+#imagen{
+    width: 200px;
+    height: 200px;
+}
+#titulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    grid-area: titulo;
+}
+#contenido{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 10px;
+    display: grid;
+    grid-area: contenido;
+    grid-template-columns:  500px 500px;
+    grid-template-rows: 150px auto 150px;
+    grid-template-areas: "text image";
+}
+#footer{
+    grid-area: footer;
+}
+.georgia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#giorgia1{
+    padding: 15px;
+    border-style: 4px solid black;
+}
