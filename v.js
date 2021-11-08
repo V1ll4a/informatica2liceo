@@ -1,6 +1,0 @@
-var numero = prompt("Ingrese su numero")
-var numero2 = prompt("Ingrese un segundo numero")
-alert("La multiplicacion entre los dos numeros es: " +( numero * numero2))
-alert("La resta entre los dos numeros es: " +( numero - numero2))
-alert("La division entre los dos numeros es: " +( numero / numero2))
-alert("La suma entre los dos numeros es: " + (numero + numero2))
